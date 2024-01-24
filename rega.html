@@ -80,31 +80,55 @@
       </div> -->
     </header>
     <main>
-      <div class="container12">
-        <div class="of">
-          <img src="./img/яндексофд.png" alt="" class="fototovar" />
-          <form class="form1">
-            <label for="name" class="namepole1">
-              <input type="text" name="ФИО" placeholder="ФИО" />
+      <div class="container14">
+        <div class="regacont">
+          <h1 class="hrega">Регистрация аккаунта</h1>
+          <form class="rega">
+            <label for="name" class="namerega">
+              <input type="text" name="Имя" placeholder="Имя" required />
             </label>
-            <label for="email" class="email1">
-              <input type="email" name="email" placeholder="E-mail" />
+            <label for="age" class="agerega">
+              <input
+                type="number"
+                name="Возраст"
+                placeholder="Введите ваш возраст"
+                maxlength="2"
+                min="0"
+                max="100"
+              />
             </label>
-            <button type="submit" class="butontovar">Оформить заказ</button>
-            <p class="oform">
-              Нажимая кнопку "Оформить заказ", вы соглашаетесь с политикой
-              обработки персональных данных
-            </p>
+            <label for="email">
+              <input
+                type="email"
+                name="email"
+                class="emailrega"
+                placeholder="Введите E-mail"
+                required
+              />
+            </label>
+            <label for="password">
+              <input
+                type="password"
+                name="pass"
+                class="passrega"
+                placeholder="Введите пароль не более 8 "
+                maxlength="8"
+                required
+              />
+            </label>
+            <label for="password">
+              <input
+                type="password"
+                name="pass"
+                class="passrega1"
+                placeholder="Подтверждение пароля "
+                maxlength="8"
+                required
+              />
+            </label>
+            <button type="submit" class="buttonrega">Вход</button>
           </form>
         </div>
-        <p class="ko">Код активации Яндекс ОФД</p>
-        <p class="mo">15 месяцев</p>
-        <p class="artikul">Артикул:ХХХХХХХХ</p>
-        <p class="artikul1">
-          Активация услуг ОФД происходит в личном кабинете на сайте. Подробнее
-          можно ознакомиться <a href="">здесь</a>
-        </p>
-        <h1 class="money1">490p</h1>
       </div>
     </main>
     <footer id="footer">

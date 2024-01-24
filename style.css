@@ -1123,10 +1123,10 @@ input {
 }
 /* tovar.html */
 .container12 {
-  margin-top: 100px;
+  margin-top: -660px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(15, 50px);
+  grid-template-rows: repeat(13, 50px);
 }
 
 .email1 {
@@ -1135,7 +1135,7 @@ input {
   content: normal;
   margin-left: 100px;
   border-radius: 15px;
-  background-color: #e2e8f0;
+  /* background-color: #e2e8f0; */
   width: 400px;
   height: 630px;
 }
@@ -1157,6 +1157,7 @@ input {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 1;
+  color: white;
 }
 .mo {
   margin-top: 40px;
@@ -1166,10 +1167,13 @@ input {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 3;
+  color: white;
 }
 .oform {
   text-align: center;
   font-size: 20px;
+  margin-left: -40px;
+  color: white;
 }
 .artikul {
   margin-top: 40px;
@@ -1179,6 +1183,7 @@ input {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 3;
+  color: white;
 }
 .artikul1 {
   margin-top: 40px;
@@ -1188,6 +1193,7 @@ input {
   grid-column-end: 5;
   grid-row-start: 7;
   grid-row-end: 8;
+  color: white;
 }
 .money1 {
   margin-top: 20px;
@@ -1210,10 +1216,89 @@ input {
   background-color: #2dd4bf;
   border-radius: 5px;
   border: none;
+  font-size: 20px;
   margin-left: 15px;
   margin-top: 20px;
   width: 300px;
   height: 50px;
+}
+/* vhod.html / rega.html */
+.container13 {
+  margin-top: -570px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(11, 50px);
+}
+.hvhod {
+  font-size: 40px;
+  color: white;
+}
+.vhodcont {
+  margin-left: 15%;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  width: 320px;
+  height: 370px;
+  border-radius: 15px;
+  background-color: rgb(0, 39, 58);
+}
+.email {
+  width: 270px;
+}
+.pass {
+  width: 270px;
+}
+.buttonvhod {
+  color: black;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2dd4bf;
+  margin-top: 15px;
+  width: 250px;
+  height: 40px;
+  font-size: 24px;
+}
+.vhodreg {
+  color: white;
+}
+.container14 {
+  margin-top: -620px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(12, 50px);
+}
+.regacont {
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  width: 700px;
+  height: 430px;
+  border-radius: 15px;
+  background-color: rgb(0, 39, 58);
+}
+.buttonrega {
+  color: black;
+  border: none;
+  border-radius: 10px;
+  background-color: #2dd4bf;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 250px;
+  height: 40px;
+  font-size: 24px;
+}
+.passrega1 {
+  margin-left: 350px;
+  /* margin-left: 100px; */
+}
+.hrega {
+  color: white;
 }
 @media (max-width: 320px) {
   .header {
@@ -2299,70 +2384,75 @@ input {
   .container12 {
     width: 320px;
     /* height: 1000px; */
-    margin-top: 10px;
+    margin-top: -270px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(18, 50px);
+    grid-template-rows: repeat(16, 50px);
   }
   .email1 {
   }
   .of {
     content: normal;
-    margin-left: 10px;
-    border-radius: 15px;
-    background-color: #ffffff;
+    margin-left: 0px;
+    border-radius: 0px;
+    background-color: #c2c4c7;
     width: 320px;
-    height: 630px;
+    height: 900px;
   }
   .fototovar {
     margin-top: 20px;
     width: 250px;
     border-radius: 15px;
-    margin-left: 10px;
+    margin-left: 30px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 3;
   }
   .ko {
+    color: black;
     width: 320px;
     font-size: 34px;
-    margin-top: 90px;
-    margin-left: 20px;
+    margin-top: 125px;
+    margin-left: 45px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 5;
   }
   .mo {
+    color: black;
     width: 320px;
-    margin-top: 90px;
+    margin-top: 100px;
     font-size: 24px;
-    margin-left: 20px;
+    margin-left: 80px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 6;
     grid-row-end: 6;
   }
   .oform {
+    color: black;
     width: 320px;
     text-align: center;
     font-size: 16px;
-    margin-left: -20px;
+    margin-left: -10px;
   }
   .artikul {
+    color: black;
     width: 320px;
-    margin-top: 70px;
+    margin-top: 80px;
     font-size: 24px;
-    margin-left: 20px;
+    margin-left: 60px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 7;
     grid-row-end: 7;
   }
   .artikul1 {
+    color: black;
     width: 320px;
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 20px;
     margin-left: 0px;
     grid-column-start: 1;
@@ -2372,9 +2462,9 @@ input {
   }
   .money1 {
     width: 320px;
-    margin-top: 50px;
+    margin-top: 60px;
     font-size: 36px;
-    margin-left: 20px;
+    margin-left: 110px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 8;
@@ -2393,9 +2483,87 @@ input {
     background-color: #2dd4bf;
     border-radius: 5px;
     border: none;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 20px;
     width: 250px;
     height: 50px;
+  }
+  /* vhod.html / rega.html */
+  .container13 {
+    margin-top: -270px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 50px);
+  }
+  .hvhod {
+    font-size: 40px;
+    color: white;
+  }
+  .vhodcont {
+    margin-left: 0%;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    width: 320px;
+    height: 370px;
+    border-radius: 0px;
+    background-color: rgb(0, 39, 58);
+  }
+  .email {
+    width: 270px;
+  }
+  .pass {
+    width: 270px;
+  }
+  .buttonvhod {
+    color: black;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2dd4bf;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+  }
+  .vhodreg {
+    color: white;
+  }
+  .container14 {
+    margin-top: -270px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 50px);
+  }
+  .regacont {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    width: 320px;
+    height: 550px;
+    border-radius: 0px;
+    background-color: rgb(0, 39, 58);
+  }
+  .buttonrega {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: #2dd4bf;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+  }
+  .passrega1 {
+    margin-left: 10px;
+    /* margin-left: 100px; */
+  }
+  .hrega {
+    color: white;
   }
 }
