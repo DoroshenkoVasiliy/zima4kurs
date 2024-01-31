@@ -2389,8 +2389,6 @@ input {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(16, 50px);
   }
-  .email1 {
-  }
   .of {
     content: normal;
     margin-left: 0px;
